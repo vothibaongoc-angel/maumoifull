@@ -31,7 +31,7 @@ const MOVEMENT_ARTICLE_SCHEMA = {
 export const analyzeWeeklyImage = async (base64Image: string): Promise<WeeklyAnalysis> => {
   const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
   const response = await ai.models.generateContent({
-    model: 'gemini-3-flash-preview',
+    model: 'gemini-2.5-flash-preview',
     contents: {
       parts: [
         { inlineData: { mimeType: "image/jpeg", data: base64Image.split(',')[1] } },
