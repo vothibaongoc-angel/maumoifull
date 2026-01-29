@@ -1,0 +1,6 @@
+
+{
+  "name": "Cổng Thông Tin Liên Đội - Tiểu Học Giồng Trôm",
+  "description": "Ứng dụng phân tích hình ảnh sinh hoạt Đội thông qua AI Gemini, tự động tạo nội dung truyền cảm hứng cho phong trào 'Mỗi tuần một câu chuyện đẹp'.",
+  "requestFramePermissions": ["camera"]
+}
